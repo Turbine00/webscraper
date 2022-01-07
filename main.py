@@ -23,7 +23,7 @@ def scraper(link):
 
     df = pd.DataFrame(isins, columns=["ISIN"])
 
-    for i in range(len(additional_info)):
+    for i in range(len(data)):
         df.at[i, "type"] = data[i][0]
         df.at[i, "coupon"] = data[i][1]
         df.at[i, "mat_day"] = data[i][2]
