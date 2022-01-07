@@ -1,2 +1,2 @@
 # webscraper
-getting info of inflation linked bonds from website using webscraper
+getting relevant information of inflation linked bonds from french website using webscraper
